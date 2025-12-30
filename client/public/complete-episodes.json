@@ -1,0 +1,145 @@
+{
+  "episodes": [
+    {
+      "id": 1,
+      "number": 1,
+      "title": "El Secreto que Gojo Nunca Contó",
+      "concept": "Introduction to Allah",
+      "level": "Buscador",
+      "pages": [
+        {"number": 1, "title": "El Misterio", "content": "Todos quieren saber el secreto de mi poder. Pero hoy te contaré algo que nadie más sabe...\n\nTú ves mi Infinito y piensas que es lo máximo. Pero hay algo - alguien - cuyo poder hace que mi Infinito parezca un truco de magia barato.\n\nEse poder es REAL. Y está más cerca de ti de lo que crees."},
+        {"number": 2, "title": "La Pregunta", "content": "¿Quién creó TODO? El universo, las estrellas, tu cerebro, tus sueños.\n\nHay un Creador. Uno solo. Su nombre es Allah.\n\nAhora, antes de que pienses 'eso es para árabes' - ALTO. Allah es la palabra en árabe para 'Dios'. Es el mismo Dios que adoraban Abraham, Moisés y Jesús."},
+        {"number": 3, "title": "La Verdad", "content": "Allah significa Dios en árabe. En arameo (el idioma de Jesús) se dice 'Alaha'. En hebreo, 'Elohim'. Mismo Dios, diferentes idiomas.\n\nUn colombiano puede ser musulmán y seguir siendo colombiano. Tu fe no cambia tu nacionalidad - la completa.\n\nAlah está más cerca de ti que tu propia vena yugular."}
+      ],
+      "verse": {"arabic": "وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ الْوَرِيدِ", "spanish": "Y estamos más cerca de él que su vena yugular", "reference": "Corán 50:16"},
+      "quiz": [
+        {"question": "¿Cómo se dice 'Dios' en árabe?", "options": ["Alá", "Allah", "Elohim", "Adonai"], "correct": 1, "explanation": "Allah es la palabra árabe para Dios."},
+        {"question": "¿En qué idioma hablaba Jesús?", "options": ["Latín", "Griego", "Arameo", "Hebreo"], "correct": 2, "explanation": "Jesús hablaba arameo."},
+        {"question": "¿Cómo se dice 'Dios' en arameo?", "options": ["Allah", "Alaha", "Elohim", "Adonai"], "correct": 1, "explanation": "En arameo se dice 'Alaha'."},
+        {"question": "¿Un colombiano puede ser musulmán?", "options": ["No, tiene que ser árabe", "Sí, la fe no cambia la nacionalidad", "Solo si vive en el Medio Oriente", "No es posible"], "correct": 1, "explanation": "Claro que sí. Puedes ser colombiano y musulmán."},
+        {"question": "¿Qué tan cerca está Allah de nosotros?", "options": ["Muy lejos", "En el cielo", "Más cerca que nuestra yugular", "Solo en la mezquita"], "correct": 2, "explanation": "Allah está siempre contigo."}
+      ],
+      "challenge": "Esta noche, antes de dormir, di en voz baja: 'Allah, si existes, guíame.' Solo eso.",
+      "points": {"quiz": 100, "perfect": 25, "challenge": 50}
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "title": "El Código de los Campeones",
+      "concept": "Islam as Success System",
+      "level": "Buscador",
+      "pages": [
+        {"number": 1, "title": "El Patrón", "content": "¿Qué tienen en común las personas más fuertes de la historia?\n\nNo es riqueza. No es ejércitos. No es poderes especiales.\n\nTodos recibieron guía de la MISMA fuente. Todos siguieron el MISMO código."},
+        {"number": 2, "title": "Los Héroes", "content": "Adán, Noé, Abraham, Moisés, Jesús, Muhammad.\n\nSeis profetas. Seis héroes. Todos con el mismo mensaje: UN SOLO DIOS.\n\nNo estaban compitiendo - eran un EQUIPO a través del tiempo."},
+        {"number": 3, "title": "El Sistema", "content": "Islam significa 'sumisión a la voluntad de Dios'.\nMusulmán significa 'uno que se somete'.\n\nTodos los profetas fueron musulmanes en este sentido. No es una religión nueva - es LA forma original."}
+      ],
+      "verse": {"arabic": "قُولُوا آمَنَّا بِاللَّهِ وَمَا أُنزِلَ إِلَيْنَا", "spanish": "Decid: Creemos en Allah y en lo que nos fue revelado", "reference": "Corán 2:136"},
+      "quiz": [
+        {"question": "¿Qué significa 'Islam'?", "options": ["Una cultura árabe", "Sumisión a la voluntad de Dios", "Un país", "Una tradición"], "correct": 1, "explanation": "Islam significa sumisión a la voluntad de Dios."},
+        {"question": "¿Cuántos profetas principales se mencionaron?", "options": ["3", "4", "6", "12"], "correct": 2, "explanation": "Los seis profetas principales fueron: Adán, Noé, Abraham, Moisés, Jesús y Muhammad."},
+        {"question": "¿Quién es el último profeta?", "options": ["Moisés", "Jesús", "Muhammad", "Abraham"], "correct": 2, "explanation": "Muhammad es el último y final profeta."},
+        {"question": "¿Los profetas se contradecían entre sí?", "options": ["Sí, constantemente", "A veces", "No, todos tenían el mismo mensaje", "No sabemos"], "correct": 2, "explanation": "No se contradecían. Todos enseñaban la creencia en un solo Dios."},
+        {"question": "¿Qué mensaje tenían TODOS en común?", "options": ["Que fueran árabes", "Un solo Dios", "Que vivieran en el desierto", "Que fueran ricos"], "correct": 1, "explanation": "El mensaje central era la creencia en un solo Dios verdadero."}
+      ],
+      "challenge": "Escribe en un papel los nombres de 3 profetas. Ponlo donde lo veas cada día.",
+      "points": {"quiz": 100, "perfect": 25, "challenge": 50}
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "title": "Tu Mamá es Sagrada",
+      "concept": "Status of Mothers",
+      "level": "Estudiante",
+      "pages": [
+        {"number": 1, "title": "La Pregunta", "content": "Un hombre preguntó al Profeta: '¿Quién merece mi mejor trato?'\n\nEl Profeta dijo: 'Tu madre.'\n'¿Luego quién?' 'Tu madre.'\n'¿Luego quién?' 'Tu madre.'\n'¿Luego quién?' 'Tu padre.'\n\nTu madre recibe 3 veces más derechos que tu padre."},
+        {"number": 2, "title": "Paraíso Bajo Sus Pies", "content": "'El Paraíso está bajo los pies de las madres'\n\nEsto significa que ser bueno con tu mamá es tu boleto al Paraíso.\n\nLas madres solteras trabajan el doble. Doble trabajo = doble recompensa en el Más Allá."},
+        {"number": 3, "title": "Las Acciones", "content": "Formas prácticas de honrar a tu madre:\n- Habla con respeto\n- Ayuda sin que te lo pida\n- Ten paciencia\n- Expresa gratitud\n\nGojo: 'Yo soy fuerte, pero respeto a quien me crió.'"}
+      ],
+      "verse": {"arabic": "وَوَصَّيْنَا الْإِنسَانَ بِوَالِدَيْهِ حَمَلَتْهُ أُمُّهُ وَهْنًا عَلَىٰ وَهْنٍ", "spanish": "Y ordenamos al ser humano bondad con sus padres. Su madre lo llevó con fatiga sobre fatiga", "reference": "Corán 31:14"},
+      "quiz": [
+        {"question": "¿Cuántas veces dijo el Profeta 'tu madre'?", "options": ["1", "2", "3", "4"], "correct": 2, "explanation": "El Profeta dijo 'tu madre' tres veces."},
+        {"question": "¿Dónde está el Paraíso según el hadiz?", "options": ["En el cielo", "Bajo los pies de las madres", "En la Meca", "En el Corán"], "correct": 1, "explanation": "El Paraíso está bajo los pies de las madres."},
+        {"question": "¿Quién tiene más derechos?", "options": ["El padre", "La madre", "Ambos igual", "El hermano mayor"], "correct": 1, "explanation": "La madre tiene 3 veces más derechos que el padre."},
+        {"question": "¿Por qué las madres solteras merecen más respeto?", "options": ["Porque son pobres", "Porque trabajan el doble", "Porque son débiles", "Porque lo dice la ley"], "correct": 1, "explanation": "Las madres solteras trabajan el doble."},
+        {"question": "¿Qué es una forma de honrar a tu mamá?", "options": ["Ignorarla", "Hablar con respeto", "Desobedecerla", "Avergonzarla"], "correct": 1, "explanation": "Hablar con respeto es una forma de honrar a tu mamá."}
+      ],
+      "challenge": "Hoy, dile a tu mamá 3 cosas específicas por las que estás agradecido. Mírala a los ojos.",
+      "points": {"quiz": 100, "perfect": 25, "challenge": 50}
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "title": "El Empresario Original",
+      "concept": "Prophet Muhammad as Businessman",
+      "level": "Estudiante",
+      "pages": [
+        {"number": 1, "title": "El Joven Comerciante", "content": "Muhammad fue huérfano desde joven.\n\nA los 12 años empezó a trabajar con su tío en el comercio.\n\nLo llamaban 'Al-Amin' (El Confiable) y 'Al-Sadiq' (El Veraz).\n\nSu reputación era su marca. Su honestidad era su poder."},
+        {"number": 2, "title": "El Negocio", "content": "Khadija era una mujer de negocios exitosa.\n\nOyó sobre la reputación de Muhammad y lo CONTRATÓ para manejar sus caravanas comerciales.\n\nFue tan bueno que ella le PROPUSO matrimonio.\n\nElla tenía 15 años más que él y era muy rica."},
+        {"number": 3, "title": "Los Principios", "content": "Honestidad en todos los tratos.\nNunca engañar sobre los productos.\nPrecios justos.\nIngreso Halal es ingreso bendecido.\n\n'El comerciante honesto estará con los profetas en el Día del Juicio.'"}
+      ],
+      "verse": {"arabic": "الْبَيِّعَانِ بِالْخِيَارِ مَا لَمْ يَتَفَرَّقَا", "spanish": "El comerciante honesto y confiable estará con los profetas", "reference": "Hadith"},
+      "quiz": [
+        {"question": "¿A qué edad empezó a trabajar Muhammad?", "options": ["8", "10", "12", "15"], "correct": 2, "explanation": "Muhammad empezó a trabajar a los 12 años."},
+        {"question": "¿Cómo lo llamaban?", "options": ["Al-Malik", "Al-Amin", "Al-Hakim", "Al-Aziz"], "correct": 1, "explanation": "Lo llamaban 'Al-Amin' (El Confiable)."},
+        {"question": "¿Quién fue su primera esposa?", "options": ["Aisha", "Khadija", "Hafsa", "Zaynab"], "correct": 1, "explanation": "Su primera esposa fue Khadija."},
+        {"question": "¿Quién propuso matrimonio?", "options": ["Muhammad a Khadija", "Khadija a Muhammad", "El tío de Muhammad", "El padre de Khadija"], "correct": 1, "explanation": "Khadija propuso matrimonio a Muhammad."},
+        {"question": "¿Cuál es la clave del éxito en negocios?", "options": ["Ser rico", "Ser honesto", "Tener suerte", "Ser árabe"], "correct": 1, "explanation": "La honestidad es la clave del éxito en negocios."}
+      ],
+      "challenge": "Escribe una idea de negocio en un cuaderno. Solo una oración: '¿Qué problema puedo resolver?'",
+      "points": {"quiz": 100, "perfect": 25, "challenge": 50}
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "title": "La Recarga Diaria",
+      "concept": "The 5 Daily Prayers",
+      "level": "Conocedor",
+      "pages": [
+        {"number": 1, "title": "Los Power-Ups", "content": "Los videojuegos tienen power-ups y puntos de guardado.\n\nLa vida tiene algo mejor: las 5 oraciones diarias.\n\nCada oración es un reset, una recarga, una reconexión.\n\nGojo: 'Incluso yo necesito reiniciar a veces.'"},
+        {"number": 2, "title": "El Horario", "content": "Fajr (Amanecer) - Comienza el día conectado\nDhuhr (Mediodía) - Reinicio del mediodía\nAsr (Tarde) - No pierdas momentum\nMaghrib (Atardecer) - Gratitud vespertina\nIsha (Noche) - Cierra el día correctamente\n\nCinco momentos de paz en un mundo caótico."},
+        {"number": 3, "title": "Por Qué Funciona", "content": "La estructura crea disciplina.\nLa disciplina crea éxito.\n\nCinco momentos de paz en un mundo caótico.\nUna línea directa al Creador - sin intermediarios.\n\nEsto es lo que te hace invencible."}
+      ],
+      "verse": {"arabic": "إِنَّ الصَّلَاةَ كَانَتْ عَلَى الْمُؤْمِنِينَ كِتَابًا مَّوْقُوتًا", "spanish": "Ciertamente la oración ha sido prescrita a los creyentes en tiempos determinados", "reference": "Corán 4:103"},
+      "quiz": [
+        {"question": "¿Cuántas oraciones hay al día?", "options": ["3", "4", "5", "6"], "correct": 2, "explanation": "Hay 5 oraciones al día."},
+        {"question": "¿Cuál es la primera oración?", "options": ["Dhuhr", "Fajr", "Asr", "Maghrib"], "correct": 1, "explanation": "Fajr es la primera oración del día."},
+        {"question": "¿Cuál es la oración del atardecer?", "options": ["Asr", "Maghrib", "Isha", "Dhuhr"], "correct": 1, "explanation": "Maghrib es la oración del atardecer."},
+        {"question": "¿Necesitas un intermediario para hablar con Allah?", "options": ["Sí, siempre", "A veces", "No", "Solo los viernes"], "correct": 2, "explanation": "No necesitas intermediario. Hablas directamente con Allah."},
+        {"question": "¿Qué crea la oración en tu vida?", "options": ["Confusión", "Disciplina", "Debilidad", "Miedo"], "correct": 1, "explanation": "La oración crea disciplina en tu vida."}
+      ],
+      "challenge": "Mañana, despiértate 5 minutos antes. Siéntate en silencio y piensa en 3 cosas buenas.",
+      "points": {"quiz": 100, "perfect": 25, "challenge": 50}
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "title": "Dinero Infinito",
+      "concept": "Islamic Economics",
+      "level": "Conocedor",
+      "pages": [
+        {"number": 1, "title": "La Multiplicación", "content": "En Islam, la caridad (Sadaqah) no disminuye tu riqueza.\n\nLa MULTIPLICA a través de Barakah (bendición divina).\n\n'La riqueza no disminuye por la caridad'\n\nEs como plantar semillas vs guardarlas."},
+        {"number": 2, "title": "Halal vs Haram", "content": "No todo el dinero es igual.\n\nDinero ganado honestamente = bendecido\nDinero de engaño/daño = maldito\n\nIncluso poco dinero Halal es mejor que mucho dinero Haram.\n\nEsta es la verdadera riqueza."},
+        {"number": 3, "title": "La Ventaja del Empresario", "content": "Los musulmanes en negocios tienen una ventaja.\n\nÉtica integrada = confianza = clientes recurrentes\n\nZakat (caridad obligatoria) purifica tu riqueza\n\nAyudar a otros = invertir en tu Más Allá."}
+      ],
+      "verse": {"arabic": "مَّثَلُ الَّذِينَ يُنفِقُونَ أَمْوَالَهُمْ فِي سَبِيلِ اللَّهِ كَمَثَلِ حَبَّةٍ أَنبَتَتْ سَبْعَ سَنَابِلَ", "spanish": "El ejemplo de quienes gastan sus bienes por Allah es como un grano que produce siete espigas, cada espiga con cien granos", "reference": "Corán 2:261"},
+      "quiz": [
+        {"question": "¿La caridad disminuye tu riqueza?", "options": ["Sí, siempre", "A veces", "No", "Depende"], "correct": 2, "explanation": "No, la caridad no disminuye tu riqueza."},
+        {"question": "¿Qué es 'Barakah'?", "options": ["Dinero", "Bendición divina", "Comercio", "Impuesto"], "correct": 1, "explanation": "Barakah es bendición divina."},
+        {"question": "¿Qué es mejor?", "options": ["Mucho dinero Haram", "Poco dinero Halal", "No importa", "Dinero robado"], "correct": 1, "explanation": "Poco dinero Halal es mejor que mucho dinero Haram."},
+        {"question": "¿Cuánto multiplica Allah la caridad?", "options": ["2x", "5x", "700x", "1000x"], "correct": 2, "explanation": "Allah multiplica la caridad hasta 700 veces."},
+        {"question": "¿Qué es Zakat?", "options": ["Oración", "Caridad obligatoria", "Ayuno", "Peregrinación"], "correct": 1, "explanation": "Zakat es caridad obligatoria."}
+      ],
+      "challenge": "Esta semana, da algo a alguien que lo necesite. Puede ser dinero, comida, o tu tiempo.",
+      "points": {"quiz": 100, "perfect": 25, "challenge": 50}
+    }
+  ],
+  "levels": [
+    {"level": 1, "name": "Buscador", "points": 0, "icon": "🔍", "minScore": 0},
+    {"level": 2, "name": "Estudiante", "points": 300, "icon": "📚", "minScore": 90},
+    {"level": 3, "name": "Conocedor", "points": 600, "icon": "💡", "minScore": 90},
+    {"level": 4, "name": "Guerrero", "points": 1000, "icon": "⚔️", "minScore": 90},
+    {"level": 5, "name": "Guardián", "points": 1500, "icon": "🛡️", "minScore": 90},
+    {"level": 6, "name": "Maestro", "points": 2000, "icon": "⭐", "minScore": 90},
+    {"level": 7, "name": "Iluminado", "points": 2500, "icon": "✨", "minScore": 90}
+  ]
+}

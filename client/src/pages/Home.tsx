@@ -110,9 +110,9 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-50 to-slate-100">
+    <div className="min-h-screen bg-gradient-to-b from-slate-900 via-blue-950 to-slate-900">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-slate-900 via-blue-900 to-slate-900 text-white py-16 px-4">
+      <section className="relative bg-gradient-to-r from-slate-900 via-blue-900 to-slate-900 text-white py-16 px-4 border-b-2" style={{ borderColor: '#1E90FF' }}>
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-8">
           <div className="flex-1 text-center md:text-left">
             <h1 className="text-5xl md:text-6xl font-extrabold mb-4 font-[Outfit]" style={{ color: '#1E90FF' }}>
@@ -122,7 +122,7 @@ export default function Home() {
               Un viaje con Gojo hacia el conocimiento
             </p>
             <p className="text-lg text-gray-300 max-w-xl">
-              Descubre los secretos que transformarán tu vida. Aprende, crece, y conviértete en la mejor versión de ti mismo.
+              Cada punto = 1¢ USD. Necesitas 90% en quizzes para desbloquear recompensas.
             </p>
           </div>
           <div className="flex-1 flex justify-center">
@@ -141,7 +141,7 @@ export default function Home() {
               <span className="text-4xl">✨</span>
               <div>
                 <p className="text-sm text-gray-600 font-medium">Puntos de Luz</p>
-                <p className="text-3xl font-bold" style={{ color: '#1E90FF' }}>{progress.totalPoints}</p>
+                <p className="text-3xl font-bold" style={{ color: '#1E90FF' }}>${(progress.totalPoints * 0.01).toFixed(2)}</p>
               </div>
             </div>
           </div>
@@ -164,7 +164,7 @@ export default function Home() {
                 style={{ width: `${getProgressPercentage()}%`, backgroundColor: '#1E90FF' }}
               ></div>
             </div>
-            <p className="text-sm text-gray-600 mt-2">
+            <p className="text-sm text-gray-400 mt-2">
               {progress.totalPoints} / {nextLevelPoints} puntos
             </p>
           </div>
