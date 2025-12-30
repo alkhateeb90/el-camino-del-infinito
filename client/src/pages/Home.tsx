@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react';
 import { useLocation } from 'wouter';
 import { StreakBadges } from '@/components/StreakBadges';
 import { useStreakTracking } from '@/hooks/useStreakTracking';
+import { CertificateModal } from '@/components/CertificateModal';
+import { CertificateData } from '@/lib/certificateGenerator';
 
 interface ProgressData {
   currentLevel: number;
@@ -74,6 +76,10 @@ export default function Home() {
   const [currentLevel, setCurrentLevel] = useState<Level>(LEVELS[0]);
   const [nextLevelPoints, setNextLevelPoints] = useState<number>(300);
   const { streak, badges, getNextBadge, getDaysUntilNextBadge } = useStreakTracking();
+  const [certificateModal, setCertificateModal] = useState<{ isOpen: boolean; certificate: CertificateData | null }>({
+    isOpen: false,
+    certificate: null,
+  });
 
   // Load progress from localStorage
   useEffect(() => {
@@ -84,6 +90,41 @@ export default function Home() {
       updateLevel(data.totalPoints);
     }
   }, []);
+
+  const handleBadgeUnlock = (badgeName: string) => {
+    const badgeMap: Record<string, { icon: string; description: string }> = {
+      'Aprendiz Dedicado': {
+        icon: '🔥',
+        description: 'Has mantenido una racha de 7 días consecutivos de aprendizaje. ¡Excelente dedicación!',
+      },
+      'Guerrero Imparable': {
+        icon: '⚡',
+        description: 'Has alcanzado una racha de 30 días consecutivos. ¡Eres un verdadero guerrero del conocimiento!',
+      },
+      'Leyenda Viviente': {
+        icon: '👑',
+        description: 'Has completado 100 días consecutivos de aprendizaje. ¡Eres una leyenda viviente!',
+      },
+    };
+
+    const badgeInfo = badgeMap[badgeName];
+    if (badgeInfo) {
+      const certificate: CertificateData = {
+        type: 'badge',
+        recipientName: 'Alfred',
+        achievementTitle: badgeName,
+        achievementDescription: badgeInfo.description,
+        badgeIcon: badgeInfo.icon,
+        date: new Date().toLocaleDateString('es-ES', {
+          year: 'numeric',
+          month: 'long',
+          day: 'numeric',
+        }),
+        streakDays: streak.currentStreak,
+      };
+      setCertificateModal({ isOpen: true, certificate });
+    }
+  };
 
   const updateLevel = (points: number) => {
     let newLevel = LEVELS[0];
@@ -251,6 +292,8 @@ export default function Home() {
           streak={streak} 
           daysUntilNext={getDaysUntilNextBadge()}
           showDetails={true}
+          onBadgeUnlock={handleBadgeUnlock}
+          recipientName="Alfred"
         />
       </section>
 
@@ -307,6 +350,14 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Certificate Modal */}
+      <CertificateModal
+        isOpen={certificateModal.isOpen}
+        certificate={certificateModal.certificate}
+        onClose={() => setCertificateModal({ isOpen: false, certificate: null })}
+        recipientName="Alfred"
+      />
     </div>
   );
 }

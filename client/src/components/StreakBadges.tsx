@@ -5,6 +5,8 @@ interface StreakBadgesProps {
   streak: StreakData;
   daysUntilNext: number;
   showDetails?: boolean;
+  onBadgeUnlock?: (badgeName: string) => void;
+  recipientName?: string;
 }
 
 export function StreakBadges({
@@ -12,6 +14,8 @@ export function StreakBadges({
   streak,
   daysUntilNext,
   showDetails = true,
+  onBadgeUnlock,
+  recipientName = 'Alfred',
 }: StreakBadgesProps) {
   const unlockedBadges = badges.filter((b) => b.unlocked);
   const nextBadge = badges.find((b) => !b.unlocked);
@@ -59,10 +63,16 @@ export function StreakBadges({
                   <p className="text-5xl mb-2 animate-pulse">{badge.icon}</p>
                   <p className="font-bold text-white mb-1">{badge.name}</p>
                   <p className="text-xs text-gray-300 mb-3">{badge.description}</p>
-                  <div className="flex items-center justify-center gap-1">
+                  <div className="flex items-center justify-center gap-1 mb-3">
                     <span className="text-lg">✓</span>
                     <span className="text-xs text-green-300 font-semibold">Desbloqueado</span>
                   </div>
+                  <button
+                    onClick={() => onBadgeUnlock?.(badge.name)}
+                    className="w-full bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600 text-white text-xs font-semibold py-2 rounded transition-all"
+                  >
+                    📜 Certificado
+                  </button>
                 </div>
               </div>
             ))}
