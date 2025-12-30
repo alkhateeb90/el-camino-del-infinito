@@ -265,6 +265,21 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Parent Dashboard Link */}
+      <section className="max-w-6xl mx-auto px-4 py-8">
+        <button
+          onClick={() => navigate('/parent')}
+          className="w-full bg-gradient-to-r from-amber-900 to-yellow-900 text-white rounded-lg p-6 flex gap-6 items-center hover:shadow-2xl transition-all transform hover:scale-102"
+        >
+          <span className="text-5xl">👨‍👩‍👦</span>
+          <div className="text-left flex-1">
+            <h3 className="text-2xl font-bold mb-2">Panel de Padres</h3>
+            <p className="text-sm text-amber-100">Monitorea el progreso de Alfred, puntos ganados, episodios completados y logros</p>
+          </div>
+          <span className="text-3xl">→</span>
+        </button>
+      </section>
+
       {/* Gojo Message */}
       <section className="max-w-6xl mx-auto px-4 py-12">
         <div className="bg-gradient-to-r from-blue-900 to-slate-900 text-white rounded-lg p-8 flex gap-6 items-start">
