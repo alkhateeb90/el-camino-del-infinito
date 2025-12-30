@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap');
+
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -43,6 +46,19 @@
 }
 
 :root {
+  /* Gojo-Inspired Color Palette */
+  --color-gojo-blue: #1E90FF;
+  --color-gojo-light: #63B3FF;
+  --color-gojo-dark: #0066CC;
+  --color-white: #FFFFFF;
+  --color-off-white: #F8F9FA;
+  --color-black: #1a1a2e;
+  --color-dark: #16213e;
+  --color-gold: #C9A962;
+  --color-gold-light: #E8D5A3;
+  --color-success: #28a745;
+  --color-error: #dc3545;
+  
   --primary: var(--color-blue-700);
   --primary-foreground: var(--color-blue-50);
   --sidebar-primary: var(--color-blue-600);
@@ -53,10 +69,10 @@
   --chart-4: var(--color-blue-700);
   --chart-5: var(--color-blue-800);
   --radius: 0.65rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.235 0.015 65);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.235 0.015 65);
+  --background: #F8F9FA;
+  --foreground: #1a1a2e;
+  --card: #FFFFFF;
+  --card-foreground: #1a1a2e;
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.235 0.015 65);
   --secondary: oklch(0.98 0.001 286.375);

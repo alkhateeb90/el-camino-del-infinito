@@ -1,0 +1,147 @@
+{
+  "episodes": [
+    {
+      "id": 1,
+      "number": 1,
+      "title": "El Secreto que Gojo Nunca Contó",
+      "concept": "Introduction to Allah - The One True God",
+      "pages": [
+        {
+          "number": 1,
+          "title": "El Misterio",
+          "content": "Todos quieren saber el secreto de mi poder. Pero hoy te contaré algo que nadie más sabe...\n\nTú ves mi Infinito y piensas que es lo máximo. Pero hay algo - alguien - cuyo poder hace que mi Infinito parezca un truco de magia barato.\n\nEse poder es REAL. Y está más cerca de ti de lo que crees."
+        },
+        {
+          "number": 2,
+          "title": "La Pregunta",
+          "content": "¿Quién creó TODO? El universo, las estrellas, tu cerebro, tus sueños.\n\nHay un Creador. Uno solo. Su nombre es Allah.\n\nAhora, antes de que pienses 'eso es para árabes' - ALTO. Allah es la palabra en árabe para 'Dios'. Es el mismo Dios que adoraban Abraham, Moisés y Jesús. El mismo Dios de tu mamá. El mismo Dios que te ama."
+        },
+        {
+          "number": 3,
+          "title": "La Verdad",
+          "content": "Allah significa Dios en árabe. En arameo (el idioma de Jesús) se dice 'Alaha'. En hebreo, 'Elohim'. Mismo Dios, diferentes idiomas.\n\nUn colombiano puede ser musulmán y seguir siendo colombiano. Tu fe no cambia tu nacionalidad - la completa.\n\nAlah está más cerca de ti que tu propia vena yugular. Él QUIERE que tengas éxito. Quiere que seas fuerte. Quiere que seas feliz."
+        }
+      ],
+      "verse": {
+        "arabic": "وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ الْوَرِيدِ",
+        "spanish": "Y estamos más cerca de él que su vena yugular",
+        "reference": "Corán 50:16"
+      },
+      "quiz": [
+        {
+          "question": "¿Cómo se dice 'Dios' en árabe?",
+          "options": ["Alá", "Allah", "Elohim", "Adonai"],
+          "correct": 1,
+          "explanation": "Allah es la palabra árabe para Dios. Es el mismo Dios de todas las religiones abrahámicas."
+        },
+        {
+          "question": "¿En qué idioma hablaba Jesús?",
+          "options": ["Latín", "Griego", "Arameo", "Hebreo"],
+          "correct": 2,
+          "explanation": "Jesús hablaba arameo, y en ese idioma llamaba a Dios 'Alaha'."
+        },
+        {
+          "question": "¿Cómo se dice 'Dios' en arameo (idioma de Jesús)?",
+          "options": ["Allah", "Alaha", "Elohim", "Adonai"],
+          "correct": 1,
+          "explanation": "En arameo, el idioma que hablaba Jesús, Dios se llamaba 'Alaha'."
+        },
+        {
+          "question": "¿Un colombiano puede ser musulmán?",
+          "options": ["No, tiene que ser árabe", "Sí, la fe no cambia la nacionalidad", "Solo si vive en el Medio Oriente", "No es posible"],
+          "correct": 1,
+          "explanation": "Claro que sí. Tu fe no cambia tu nacionalidad. Puedes ser colombiano y musulmán al mismo tiempo."
+        },
+        {
+          "question": "¿Qué tan cerca está Allah de nosotros?",
+          "options": ["Muy lejos", "En el cielo", "Más cerca que nuestra yugular", "Solo en la mezquita"],
+          "correct": 2,
+          "explanation": "Allah está más cerca de nosotros que nuestra propia vena yugular. Está siempre contigo."
+        }
+      ],
+      "challenge": "Esta noche, antes de dormir, di en voz baja: 'Allah, si existes, guíame.' Solo eso. A ver qué pasa.",
+      "points": {
+        "quiz": 100,
+        "perfect": 25,
+        "challenge": 50,
+        "total": 175
+      }
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "title": "El Código de los Campeones",
+      "concept": "Islam as a success system - The Prophets as ultimate heroes",
+      "pages": [
+        {
+          "number": 1,
+          "title": "El Patrón",
+          "content": "¿Qué tienen en común las personas más fuertes de la historia?\n\nNo es riqueza. No es ejércitos. No es poderes especiales.\n\nTodos recibieron guía de la MISMA fuente. Todos siguieron el MISMO código."
+        },
+        {
+          "number": 2,
+          "title": "Los Héroes",
+          "content": "Adán, Noé, Abraham, Moisés, Jesús, Muhammad.\n\nSeis profetas. Seis héroes. Todos con el mismo mensaje: UN SOLO DIOS.\n\nNo estaban compitiendo - eran un EQUIPO a través del tiempo. Cada uno confirmaba al anterior. Cada uno construía sobre la verdad que vino antes."
+        },
+        {
+          "number": 3,
+          "title": "El Sistema",
+          "content": "Islam significa 'sumisión a la voluntad de Dios'.\nMusulmán significa 'uno que se somete'.\n\nTodos los profetas fueron musulmanes en este sentido. No es una religión nueva - es LA forma original. Es el sistema que ha funcionado por miles de años.\n\nY sigue funcionando hoy."
+        }
+      ],
+      "verse": {
+        "arabic": "قُولُوا آمَنَّا بِاللَّهِ وَمَا أُنزِلَ إِلَيْنَا وَمَا أُنزِلَ إِلَىٰ إِبْرَاهِيمَ",
+        "spanish": "Decid: Creemos en Allah y en lo que nos fue revelado, y en lo que fue revelado a Abraham...",
+        "reference": "Corán 2:136"
+      },
+      "quiz": [
+        {
+          "question": "¿Qué significa 'Islam'?",
+          "options": ["Una cultura árabe", "Sumisión a la voluntad de Dios", "Un país", "Una tradición"],
+          "correct": 1,
+          "explanation": "Islam significa sumisión a la voluntad de Dios. Es un sistema de vida, no solo una religión."
+        },
+        {
+          "question": "¿Cuántos profetas principales se mencionaron?",
+          "options": ["3", "4", "6", "12"],
+          "correct": 2,
+          "explanation": "Los seis profetas principales fueron: Adán, Noé, Abraham, Moisés, Jesús y Muhammad."
+        },
+        {
+          "question": "¿Quién es el último profeta?",
+          "options": ["Moisés", "Jesús", "Muhammad", "Abraham"],
+          "correct": 2,
+          "explanation": "Muhammad es el último y final profeta. Después de él, no hay más profetas."
+        },
+        {
+          "question": "¿Los profetas se contradecían entre sí?",
+          "options": ["Sí, constantemente", "A veces", "No, todos tenían el mismo mensaje", "No sabemos"],
+          "correct": 2,
+          "explanation": "No se contradecían. Todos enseñaban la creencia en un solo Dios y la moralidad."
+        },
+        {
+          "question": "¿Qué mensaje tenían TODOS en común?",
+          "options": ["Que fueran árabes", "Un solo Dios", "Que vivieran en el desierto", "Que fueran ricos"],
+          "correct": 1,
+          "explanation": "El mensaje central de todos los profetas era la creencia en un solo Dios verdadero."
+        }
+      ],
+      "challenge": "Escribe en un papel los nombres de 3 profetas. Ponlo donde lo veas cada día.",
+      "points": {
+        "quiz": 100,
+        "perfect": 25,
+        "challenge": 50,
+        "total": 175
+      }
+    }
+  ],
+  "levels": [
+    {"level": 1, "name": "Buscador", "points": 0, "icon": "🔍"},
+    {"level": 2, "name": "Estudiante", "points": 300, "icon": "📚"},
+    {"level": 3, "name": "Conocedor", "points": 600, "icon": "💡"},
+    {"level": 4, "name": "Guerrero", "points": 1000, "icon": "⚔️"},
+    {"level": 5, "name": "Guardián", "points": 1500, "icon": "🛡️"},
+    {"level": 6, "name": "Maestro", "points": 2000, "icon": "⭐"},
+    {"level": 7, "name": "Iluminado", "points": 2500, "icon": "✨"}
+  ]
+}
