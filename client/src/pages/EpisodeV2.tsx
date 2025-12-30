@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useLocation, useRoute } from 'wouter';
+import { useStreakTracking } from '@/hooks/useStreakTracking';
 
 interface QuizQuestion {
   question: string;
@@ -91,6 +92,7 @@ const playSound = (type: 'correct' | 'wrong' | 'levelup' | 'success') => {
 export default function EpisodeV2() {
   const [_match, params] = useRoute('/episode/:number');
   const [_location, navigate] = useLocation();
+  const { recordActivity } = useStreakTracking();
   
   const [episode, setEpisode] = useState<EpisodeData | null>(null);
   const [currentPage, setCurrentPage] = useState(1);
@@ -117,6 +119,8 @@ export default function EpisodeV2() {
         if (foundEpisode) {
           setEpisode(foundEpisode);
           setQuizAnswers(new Array(foundEpisode.quiz.length).fill(null));
+          // Record activity for streak tracking
+          recordActivity();
         }
       } catch (error) {
         console.error('Error loading episode:', error);

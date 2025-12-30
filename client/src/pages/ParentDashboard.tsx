@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useLocation } from 'wouter';
+import { StreakBadges } from '@/components/StreakBadges';
+import { useStreakTracking } from '@/hooks/useStreakTracking';
 
 interface ProgressData {
   currentLevel: number;
@@ -42,6 +44,7 @@ const LEVELS: LevelInfo[] = [
 export default function ParentDashboard() {
   const [_location, navigate] = useLocation();
   const [progress, setProgress] = useState<ProgressData | null>(null);
+  const { streak, badges, getNextBadge, getDaysUntilNextBadge } = useStreakTracking();
   const [episodes, setEpisodes] = useState<Episode[]>([]);
   const [currentLevel, setCurrentLevel] = useState<LevelInfo>(LEVELS[0]);
   const [nextLevelPoints, setNextLevelPoints] = useState<number>(300);
@@ -232,6 +235,16 @@ export default function ParentDashboard() {
               {nextLevelPoints - progress.totalPoints} puntos restantes para alcanzar el siguiente nivel
             </p>
           </div>
+        </section>
+
+        {/* Streak and Badges */}
+        <section className="mb-8">
+          <StreakBadges 
+            badges={badges} 
+            streak={streak} 
+            daysUntilNext={getDaysUntilNextBadge()}
+            showDetails={true}
+          />
         </section>
 
         {/* Statistics Grid */}

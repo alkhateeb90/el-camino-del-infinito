@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useLocation } from 'wouter';
+import { StreakBadges } from '@/components/StreakBadges';
+import { useStreakTracking } from '@/hooks/useStreakTracking';
 
 interface ProgressData {
   currentLevel: number;
@@ -71,6 +73,7 @@ export default function Home() {
   const [progress, setProgress] = useState<ProgressData>(DEFAULT_PROGRESS);
   const [currentLevel, setCurrentLevel] = useState<Level>(LEVELS[0]);
   const [nextLevelPoints, setNextLevelPoints] = useState<number>(300);
+  const { streak, badges, getNextBadge, getDaysUntilNextBadge } = useStreakTracking();
 
   // Load progress from localStorage
   useEffect(() => {
@@ -241,9 +244,19 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Badges Section */}
+      {/* Streak and Badges Section */}
       <section className="max-w-6xl mx-auto px-4 py-12">
-        <h2 className="text-4xl font-bold mb-8 text-white font-[Outfit]">Insignias Ganadas</h2>
+        <StreakBadges 
+          badges={badges} 
+          streak={streak} 
+          daysUntilNext={getDaysUntilNextBadge()}
+          showDetails={true}
+        />
+      </section>
+
+      {/* Level Badges Section */}
+      <section className="max-w-6xl mx-auto px-4 py-12">
+        <h2 className="text-4xl font-bold mb-8 text-white font-[Outfit]">Insignias de Nivel</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4">
           {LEVELS.map((level) => {
             const earned = progress.badges.includes(level.name.toLowerCase());
