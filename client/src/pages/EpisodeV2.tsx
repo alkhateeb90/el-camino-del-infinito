@@ -111,7 +111,7 @@ export default function EpisodeV2() {
   useEffect(() => {
     const loadEpisode = async () => {
       try {
-        const response = await fetch('/complete-episodes.json');
+        const response = await fetch('/all-episodes-complete.json');
         const data = await response.json();
         const foundEpisode = data.episodes.find((ep: EpisodeData) => ep.number === episodeNumber);
         if (foundEpisode) {
@@ -305,7 +305,7 @@ export default function EpisodeV2() {
               </div>
 
               {/* Page Title */}
-              <h2 className="text-3xl font-bold text-blue-300 mb-4 font-[Outfit]">
+              <h2 className="text-3xl font-bold text-white mb-4 font-[Outfit]">
                 {currentPageData.title}
               </h2>
 
@@ -351,7 +351,7 @@ export default function EpisodeV2() {
             {/* Quranic Verse */}
             {currentPage === episode.pages.length && (
               <section className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-lg shadow-2xl p-8 mb-8 border-l-4" style={{ borderColor: '#C9A962' }}>
-                <h3 className="text-2xl font-bold text-amber-300 mb-6 font-[Outfit]">Verso del Corán</h3>
+                <h3 className="text-2xl font-bold text-white mb-6 font-[Outfit]">Verso del Corán</h3>
                 <div className="space-y-4">
                   <p
                     className="text-2xl leading-relaxed text-right font-[Amiri]"
@@ -375,7 +375,7 @@ export default function EpisodeV2() {
         {/* Quiz Section */}
         {showQuiz && (
           <section className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-lg shadow-2xl p-8">
-            <h2 className="text-3xl font-bold text-blue-300 mb-8 font-[Outfit]">
+            <h2 className="text-3xl font-bold text-white mb-8 font-[Outfit]">
               {quizSubmitted ? '¡Quiz Completado!' : 'Quiz - Necesitas 90% para pasar'}
             </h2>
 
@@ -425,7 +425,7 @@ export default function EpisodeV2() {
               <div className="space-y-6">
                 {episode.quiz.map((question, qIndex) => (
                   <div key={qIndex} className="p-6 bg-slate-700 rounded-lg border-l-4" style={{ borderColor: '#1E90FF' }}>
-                    <p className="font-bold text-lg text-blue-300 mb-4">
+                    <p className="font-bold text-lg text-white mb-4">
                       {qIndex + 1}. {question.question}
                     </p>
                     <div className="space-y-2">
@@ -433,7 +433,7 @@ export default function EpisodeV2() {
                         <button
                           key={oIndex}
                           onClick={() => handleQuizAnswer(qIndex, oIndex)}
-                          className={`w-full text-left p-3 rounded-lg transition-all border-2 transform hover:scale-102 ${
+                          className={`w-full text-left p-3 rounded-lg transition-all border-2 transform hover:scale-102 text-white ${
                             quizAnswers[qIndex] === oIndex
                               ? 'border-blue-400 bg-blue-900'
                               : 'border-gray-600 bg-slate-800 hover:border-blue-400'
@@ -442,7 +442,7 @@ export default function EpisodeV2() {
                           <span className="font-semibold" style={{ color: quizAnswers[qIndex] === oIndex ? '#1E90FF' : '#93c5fd' }}>
                             {String.fromCharCode(65 + oIndex)}.
                           </span>{' '}
-                          {option}
+                          <span className="text-white">{option}</span>
                         </button>
                       ))}
                     </div>
@@ -465,7 +465,7 @@ export default function EpisodeV2() {
         {/* Challenge Section */}
         {showChallenge && passedRequirement && (
           <section className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-lg shadow-2xl p-8">
-            <h2 className="text-3xl font-bold text-blue-300 mb-6 font-[Outfit]">Desafío</h2>
+            <h2 className="text-3xl font-bold text-white mb-6 font-[Outfit]">Desafío</h2>
             <div className="bg-yellow-900 border-l-4 border-yellow-400 p-6 mb-8 rounded text-yellow-100">
               <p className="text-lg leading-relaxed">
                 {episode.challenge}
